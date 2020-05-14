@@ -13,6 +13,7 @@
 		C77551E0246D74210074980F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77551DE246D74210074980F /* Main.storyboard */; };
 		C77551E2246D74280074980F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77551E1246D74280074980F /* Assets.xcassets */; };
 		C77551E5246D74280074980F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77551E3246D74280074980F /* LaunchScreen.storyboard */; };
+		C77551ED246D74D10074980F /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77551EC246D74D10074980F /* ScaleSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C77551E1246D74280074980F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77551E4246D74280074980F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77551E6246D74280074980F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77551EC246D74D10074980F /* ScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C77551DA246D74210074980F /* SceneDelegate.swift */,
 				C77551DC246D74210074980F /* ViewController.swift */,
 				C77551DE246D74210074980F /* Main.storyboard */,
+				C77551EC246D74D10074980F /* ScaleSegue.swift */,
 				C77551E1246D74280074980F /* Assets.xcassets */,
 				C77551E3246D74280074980F /* LaunchScreen.storyboard */,
 				C77551E6246D74280074980F /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77551ED246D74D10074980F /* ScaleSegue.swift in Sources */,
 				C77551DD246D74210074980F /* ViewController.swift in Sources */,
 				C77551D9246D74210074980F /* AppDelegate.swift in Sources */,
 				C77551DB246D74210074980F /* SceneDelegate.swift in Sources */,
